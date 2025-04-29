@@ -1,0 +1,213 @@
+!SESSION 2025-04-29 15:55:01.215 -----------------------------------------------
+eclipse.buildId=4.35.0.20250306-0811
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-29 15:57:25.997
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Lenovo'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-04-29 16:02:07.307
+!MESSAGE Indexed 'TcpClient' (0 sources, 0 headers) in 0.002 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-04-29 16:02:38.303
+!MESSAGE Indexed 'TcpServer' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-04-29 16:14:02.724
+!MESSAGE Indexed 'TcpServer' (2 sources, 373 headers) in 10.9 sec: 79,774 declarations; 145,245 references; 0 unresolved inclusions; 0 syntax errors; 3 unresolved names (0.0013%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-04-29 16:16:57.035
+!MESSAGE Indexed 'TcpClient' (2 sources, 373 headers) in 8.65 sec: 79,773 declarations; 145,222 references; 0 unresolved inclusions; 0 syntax errors; 3 unresolved names (0.0013%)
+
+!ENTRY org.eclipse.equinox.security 1 0 2025-04-29 16:46:12.886
+!MESSAGE New keyring password generated. 
+
+!ENTRY org.eclipse.egit.core 4 0 2025-04-29 16:46:13.470
+!MESSAGE An exception occurred during push on URI https://github.com/gouseshaik1/Network_Communication.git: https://github.com/gouseshaik1/Network_Communication.git: not authorized
+!STACK 0
+org.eclipse.jgit.api.errors.TransportException: https://github.com/gouseshaik1/Network_Communication.git: not authorized
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:168)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:315)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/gouseshaik1/Network_Communication.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:694)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:636)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:540)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:140)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1533)
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:158)
+	... 4 more
+
+!ENTRY org.eclipse.egit.ui 4 0 2025-04-29 16:46:13.486
+!MESSAGE Can't connect to any repository: https://github.com/gouseshaik1/Network_Communication.git (https://github.com/gouseshaik1/Network_Communication.git: not authorized)
+
+!ENTRY org.eclipse.egit.core 4 0 2025-04-29 16:57:04.673
+!MESSAGE An exception occurred during push on URI https://github.com/gouseshaik1/Network_Communication.git: https://github.com/gouseshaik1/Network_Communication.git: not authorized
+!STACK 0
+org.eclipse.jgit.api.errors.TransportException: https://github.com/gouseshaik1/Network_Communication.git: not authorized
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:168)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:315)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/gouseshaik1/Network_Communication.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:694)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:636)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:540)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:140)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1533)
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:158)
+	... 4 more
+
+!ENTRY org.eclipse.egit.ui 4 0 2025-04-29 16:57:04.676
+!MESSAGE Can't connect to any repository: https://github.com/gouseshaik1/Network_Communication.git (https://github.com/gouseshaik1/Network_Communication.git: not authorized)
+
+!ENTRY org.eclipse.egit.ui 4 0 2025-04-29 17:02:53.724
+!MESSAGE Transport Error: Cannot get remote repository refs.
+!STACK 0
+org.eclipse.jgit.api.errors.TransportException: gouseshaik1@github.com:gouseshaik1/Network_Communication.git: Cannot log in at github.com:22
+publickey: trying ssh-ed25519 key ~\.ssh\id_ed25519 with signature type ssh-ed25519
+publickey: server refused ssh-ed25519 key ~\.ssh\id_ed25519
+publickey: trying ssh-rsa key ~\.ssh\id_rsa with signature type rsa-sha2-512
+publickey: server refused ssh-rsa key ~\.ssh\id_rsa
+publickey: trying ssh-rsa key ~\.ssh\id_rsa with signature type rsa-sha2-256
+publickey: server refused ssh-rsa key ~\.ssh\id_rsa
+publickey: trying ssh-rsa key ~\.ssh\id_rsa with signature type ssh-rsa
+publickey: server refused ssh-rsa key ~\.ssh\id_rsa
+publickey: no more keys to try
+	at org.eclipse.jgit.api.LsRemoteCommand.execute(LsRemoteCommand.java:192)
+	at org.eclipse.jgit.api.LsRemoteCommand.call(LsRemoteCommand.java:131)
+	at org.eclipse.egit.core.op.ListRemoteOperation.run(ListRemoteOperation.java:116)
+	at org.eclipse.egit.ui.internal.components.RefSpecPage$2.run(RefSpecPage.java:254)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Caused by: org.eclipse.jgit.errors.TransportException: gouseshaik1@github.com:gouseshaik1/Network_Communication.git: Cannot log in at github.com:22
+publickey: trying ssh-ed25519 key ~\.ssh\id_ed25519 with signature type ssh-ed25519
+publickey: server refused ssh-ed25519 key ~\.ssh\id_ed25519
+publickey: trying ssh-rsa key ~\.ssh\id_rsa with signature type rsa-sha2-512
+publickey: server refused ssh-rsa key ~\.ssh\id_rsa
+publickey: trying ssh-rsa key ~\.ssh\id_rsa with signature type rsa-sha2-256
+publickey: server refused ssh-rsa key ~\.ssh\id_rsa
+publickey: trying ssh-rsa key ~\.ssh\id_rsa with signature type ssh-rsa
+publickey: server refused ssh-rsa key ~\.ssh\id_rsa
+publickey: no more keys to try
+	at org.eclipse.jgit.transport.sshd.SshdSession.connect(SshdSession.java:181)
+	at org.eclipse.jgit.transport.sshd.SshdSession.connect(SshdSession.java:100)
+	at org.eclipse.jgit.transport.sshd.SshdSessionFactory.getSession(SshdSessionFactory.java:260)
+	at org.eclipse.jgit.transport.sshd.SshdSessionFactory.getSession(SshdSessionFactory.java:1)
+	at org.eclipse.jgit.transport.SshTransport.getSession(SshTransport.java:107)
+	at org.eclipse.jgit.transport.TransportGitSsh$SshFetchConnection.<init>(TransportGitSsh.java:285)
+	at org.eclipse.jgit.transport.TransportGitSsh.openFetch(TransportGitSsh.java:152)
+	at org.eclipse.jgit.api.LsRemoteCommand.execute(LsRemoteCommand.java:170)
+	... 4 more
+Caused by: org.apache.sshd.common.SshException: No more authentication methods available
+	at org.apache.sshd.common.future.AbstractSshFuture.verifyResult(AbstractSshFuture.java:141)
+	at org.apache.sshd.client.future.DefaultAuthFuture.verify(DefaultAuthFuture.java:56)
+	at org.apache.sshd.client.future.DefaultAuthFuture.verify(DefaultAuthFuture.java:35)
+	at org.apache.sshd.common.future.VerifiableFuture.verify(VerifiableFuture.java:110)
+	at org.apache.sshd.common.future.VerifiableFuture.verify(VerifiableFuture.java:96)
+	at org.eclipse.jgit.transport.sshd.SshdSession.connect(SshdSession.java:171)
+	... 11 more
+Caused by: org.apache.sshd.common.SshException: No more authentication methods available
+	at org.apache.sshd.client.session.ClientUserAuthService.tryNext(ClientUserAuthService.java:441)
+	at org.apache.sshd.client.session.ClientUserAuthService.processUserAuth(ClientUserAuthService.java:375)
+	at org.apache.sshd.client.session.ClientUserAuthService.process(ClientUserAuthService.java:270)
+	at org.apache.sshd.common.session.helpers.CurrentService.process(CurrentService.java:109)
+	at org.apache.sshd.common.session.helpers.AbstractSession.doHandleMessage(AbstractSession.java:625)
+	at org.apache.sshd.common.session.helpers.AbstractSession.lambda$handleMessage$0(AbstractSession.java:546)
+	at org.apache.sshd.common.util.threads.ThreadUtils.runAsInternal(ThreadUtils.java:68)
+	at org.apache.sshd.common.session.helpers.AbstractSession.handleMessage(AbstractSession.java:545)
+	at org.apache.sshd.common.session.helpers.AbstractSession.decode(AbstractSession.java:1729)
+	at org.apache.sshd.common.session.helpers.AbstractSession.messageReceived(AbstractSession.java:506)
+	at org.eclipse.jgit.internal.transport.sshd.JGitClientSession.messageReceived(JGitClientSession.java:223)
+	at org.apache.sshd.common.session.helpers.AbstractSessionIoHandler.messageReceived(AbstractSessionIoHandler.java:64)
+	at org.apache.sshd.common.io.nio2.Nio2Session.handleReadCycleCompletion(Nio2Session.java:409)
+	at org.apache.sshd.common.io.nio2.Nio2Session$1.onCompleted(Nio2Session.java:382)
+	at org.apache.sshd.common.io.nio2.Nio2Session$1.onCompleted(Nio2Session.java:377)
+	at org.apache.sshd.common.io.nio2.Nio2CompletionHandler.lambda$completed$0(Nio2CompletionHandler.java:38)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:319)
+	at org.apache.sshd.common.io.nio2.Nio2CompletionHandler.completed(Nio2CompletionHandler.java:37)
+	at java.base/sun.nio.ch.Invoker.invokeUnchecked(Invoker.java:129)
+	at java.base/sun.nio.ch.Invoker$2.run(Invoker.java:221)
+	at java.base/sun.nio.ch.AsynchronousChannelGroupImpl$1.run(AsynchronousChannelGroupImpl.java:113)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.egit.ui 4 0 2025-04-29 17:04:12.847
+!MESSAGE Transport Error: Cannot get remote repository refs.
+!STACK 0
+org.eclipse.jgit.api.errors.TransportException: mohammadgouseshaik1%252540gmail.com@github.com:gouseshaik1/Network_Communication.git: Cannot log in at github.com:22
+publickey: trying ssh-ed25519 key ~\.ssh\id_ed25519 with signature type ssh-ed25519
+publickey: server refused ssh-ed25519 key ~\.ssh\id_ed25519
+publickey: trying ssh-rsa key ~\.ssh\id_rsa with signature type rsa-sha2-512
+publickey: server refused ssh-rsa key ~\.ssh\id_rsa
+publickey: trying ssh-rsa key ~\.ssh\id_rsa with signature type rsa-sha2-256
+publickey: server refused ssh-rsa key ~\.ssh\id_rsa
+publickey: trying ssh-rsa key ~\.ssh\id_rsa with signature type ssh-rsa
+publickey: server refused ssh-rsa key ~\.ssh\id_rsa
+publickey: no more keys to try
+	at org.eclipse.jgit.api.LsRemoteCommand.execute(LsRemoteCommand.java:192)
+	at org.eclipse.jgit.api.LsRemoteCommand.call(LsRemoteCommand.java:131)
+	at org.eclipse.egit.core.op.ListRemoteOperation.run(ListRemoteOperation.java:116)
+	at org.eclipse.egit.ui.internal.components.RefSpecPage$2.run(RefSpecPage.java:254)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Caused by: org.eclipse.jgit.errors.TransportException: mohammadgouseshaik1%252540gmail.com@github.com:gouseshaik1/Network_Communication.git: Cannot log in at github.com:22
+publickey: trying ssh-ed25519 key ~\.ssh\id_ed25519 with signature type ssh-ed25519
+publickey: server refused ssh-ed25519 key ~\.ssh\id_ed25519
+publickey: trying ssh-rsa key ~\.ssh\id_rsa with signature type rsa-sha2-512
+publickey: server refused ssh-rsa key ~\.ssh\id_rsa
+publickey: trying ssh-rsa key ~\.ssh\id_rsa with signature type rsa-sha2-256
+publickey: server refused ssh-rsa key ~\.ssh\id_rsa
+publickey: trying ssh-rsa key ~\.ssh\id_rsa with signature type ssh-rsa
+publickey: server refused ssh-rsa key ~\.ssh\id_rsa
+publickey: no more keys to try
+	at org.eclipse.jgit.transport.sshd.SshdSession.connect(SshdSession.java:181)
+	at org.eclipse.jgit.transport.sshd.SshdSession.connect(SshdSession.java:100)
+	at org.eclipse.jgit.transport.sshd.SshdSessionFactory.getSession(SshdSessionFactory.java:260)
+	at org.eclipse.jgit.transport.sshd.SshdSessionFactory.getSession(SshdSessionFactory.java:1)
+	at org.eclipse.jgit.transport.SshTransport.getSession(SshTransport.java:107)
+	at org.eclipse.jgit.transport.TransportGitSsh$SshFetchConnection.<init>(TransportGitSsh.java:285)
+	at org.eclipse.jgit.transport.TransportGitSsh.openFetch(TransportGitSsh.java:152)
+	at org.eclipse.jgit.api.LsRemoteCommand.execute(LsRemoteCommand.java:170)
+	... 4 more
+Caused by: org.apache.sshd.common.SshException: No more authentication methods available
+	at org.apache.sshd.common.future.AbstractSshFuture.verifyResult(AbstractSshFuture.java:141)
+	at org.apache.sshd.client.future.DefaultAuthFuture.verify(DefaultAuthFuture.java:56)
+	at org.apache.sshd.client.future.DefaultAuthFuture.verify(DefaultAuthFuture.java:35)
+	at org.apache.sshd.common.future.VerifiableFuture.verify(VerifiableFuture.java:110)
+	at org.apache.sshd.common.future.VerifiableFuture.verify(VerifiableFuture.java:96)
+	at org.eclipse.jgit.transport.sshd.SshdSession.connect(SshdSession.java:171)
+	... 11 more
+Caused by: org.apache.sshd.common.SshException: No more authentication methods available
+	at org.apache.sshd.client.session.ClientUserAuthService.tryNext(ClientUserAuthService.java:441)
+	at org.apache.sshd.client.session.ClientUserAuthService.processUserAuth(ClientUserAuthService.java:375)
+	at org.apache.sshd.client.session.ClientUserAuthService.process(ClientUserAuthService.java:270)
+	at org.apache.sshd.common.session.helpers.CurrentService.process(CurrentService.java:109)
+	at org.apache.sshd.common.session.helpers.AbstractSession.doHandleMessage(AbstractSession.java:625)
+	at org.apache.sshd.common.session.helpers.AbstractSession.lambda$handleMessage$0(AbstractSession.java:546)
+	at org.apache.sshd.common.util.threads.ThreadUtils.runAsInternal(ThreadUtils.java:68)
+	at org.apache.sshd.common.session.helpers.AbstractSession.handleMessage(AbstractSession.java:545)
+	at org.apache.sshd.common.session.helpers.AbstractSession.decode(AbstractSession.java:1729)
+	at org.apache.sshd.common.session.helpers.AbstractSession.messageReceived(AbstractSession.java:506)
+	at org.eclipse.jgit.internal.transport.sshd.JGitClientSession.messageReceived(JGitClientSession.java:223)
+	at org.apache.sshd.common.session.helpers.AbstractSessionIoHandler.messageReceived(AbstractSessionIoHandler.java:64)
+	at org.apache.sshd.common.io.nio2.Nio2Session.handleReadCycleCompletion(Nio2Session.java:409)
+	at org.apache.sshd.common.io.nio2.Nio2Session$1.onCompleted(Nio2Session.java:382)
+	at org.apache.sshd.common.io.nio2.Nio2Session$1.onCompleted(Nio2Session.java:377)
+	at org.apache.sshd.common.io.nio2.Nio2CompletionHandler.lambda$completed$0(Nio2CompletionHandler.java:38)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:319)
+	at org.apache.sshd.common.io.nio2.Nio2CompletionHandler.completed(Nio2CompletionHandler.java:37)
+	at java.base/sun.nio.ch.Invoker.invokeUnchecked(Invoker.java:129)
+	at java.base/sun.nio.ch.Invoker$2.run(Invoker.java:221)
+	at java.base/sun.nio.ch.AsynchronousChannelGroupImpl$1.run(AsynchronousChannelGroupImpl.java:113)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)

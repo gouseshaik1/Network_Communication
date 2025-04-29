@@ -1,0 +1,11 @@
+16:16:57 **** Rebuild of configuration Debug for project TcpClient ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TcpClient.o" "..\\src\\TcpClient.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TcpUtils.o" "..\\src\\TcpUtils.cpp" 
+g++ -o TcpClient.exe "src\\TcpClient.o" "src\\TcpUtils.o" -lws2_32 
+
+16:17:02 Build Finished. 0 errors, 0 warnings. (took 5s.412ms)
+
+Info: Nothing to build for TcpClient
+Info: Nothing to build for TcpServer
+Info: Nothing to build for TcpClient
